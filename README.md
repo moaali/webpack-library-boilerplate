@@ -1,9 +1,3 @@
-## Webpack Library Boilerplate
-
-Boilerplate for developing JavaScript libraries using Webpack & Babel.
-
-<br>
-
 ## Getting Started
 - Define library name in `webpack.config.js`.
 - Define library info in `package.json`.
