@@ -7,14 +7,10 @@
 <br>
 
 ## Scripts
-`yarn build` produces production version of your library under the lib folder.
-`yarn dev` produces development version of your library and runs a watcher.
+- `yarn build` produces production version of your library under the lib folder.
+- `yarn dev` produces development version of your library and runs a watcher.
 
 <br>
-
-## Scripts
-`yarn build` produces production version of your library under the lib folder.
-`yarn dev` produces development version of your library and runs a watcher.
 
 <br>
 
