@@ -7,10 +7,9 @@
 <br>
 
 ## Scripts
-- `yarn build` produces production version of your library under the lib folder.
-- `yarn dev` produces development version of your library and runs a watcher.
-
-<br>
+- `yarn build` produces production version of your library under the lib folder + linting.
+- `yarn dev` produces development version of your library and runs a watcher + linting.
+- `yarn lint:js` lins all `.js` files in `src/` folder.
 
 <br>
 
