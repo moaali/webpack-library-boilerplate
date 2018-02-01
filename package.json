@@ -1,11 +1,13 @@
 {
   "name": "webpack-library-boilerplate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Boilerplate for developing JavaScript libraries using Webpack & Babel.",
   "main": "lib/libraryName.js",
   "scripts": {
-    "build": "webpack --env dev && webpack --env build",
-    "dev": "webpack --progress --colors --watch --env dev"
+    "build": "yarn lint:js && webpack --env dev && webpack --env build",
+    "dev": "yarn lint:js && webpack --progress --colors --watch --env dev",
+    "lint:js": "eslint --ext .js,.jsx .",
+    "format:js": "prettier 'src/*.js' --write"
   },
   "repository": {
     "type": "git",
@@ -27,8 +29,12 @@
     "babel-loader": "^7.1.2",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
     "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
     "webpack": "^3.10.0",
     "yargs": "^10.0.3"
   },
