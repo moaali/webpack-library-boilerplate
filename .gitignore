@@ -28,4 +28,4 @@ yarn.lock
 # Project Folders
 # ----------------------------
 
-build/
+lib/
